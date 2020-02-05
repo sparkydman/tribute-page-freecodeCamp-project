@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#main {
+  background: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+header {
+  display: flex;
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#title {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+p em {
+  font-weight: 500;
+  color: #888888;
+}
+p + hr {
+  width: 50%;
+  align-self: center;
+}
+
+#img-div {
+  width: 90%;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1px 5px 2px #aaa;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  align-self: center;
+}
+#img-caption {
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 0;
+}
+article {
+  width: 50%;
+  margin: 50px auto;
+}
+#tribute-info {
+  text-align: center;
+  padding: 30px 0;
+  font-weight: 600;
+}
+ul li {
+  padding: 8px 0;
+}
+#tribute-link {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+}
